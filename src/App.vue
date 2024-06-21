@@ -3,16 +3,21 @@
   <Card>
 
   </Card>
+
+  <Friends>
+    
+  </Friends>
  </div>
 </template>
 
 <script>
 import Card from './components/Card.vue'
+import Friends from './components/Friends.vue'
 
 export default {
   name: 'App',
   components: {
-    Card
+    Card, Friends,
   },
 
   data(){
