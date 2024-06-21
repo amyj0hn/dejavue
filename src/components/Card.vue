@@ -1,7 +1,13 @@
 <template>
-  <div>
-    
-  </div>
+    <div class="card">
+        <div class="card-header">
+            <slot name="cardHeader"></slot>
+        </div>
+ 
+      <div class="card-body">
+        <slot name="cardBody"></slot>
+      </div>
+</div>
 </template>
 
 <script>
@@ -15,18 +21,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+    .card {
+        width:18rem;
+    }
 </style>

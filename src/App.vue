@@ -14,52 +14,17 @@
 </template>
 
 <script>
-import Card from './components/Card.vue'
-import Friends from './components/Friends.vue'
-import Products from './components/Products.vue'
+
+import Friends from '@/components/Friends.vue'
+import Products from '@/components/Products.vue'
 
 export default {
   name: 'App',
   components: {
-    Card, Friends, Products
+     Friends, Products
   },
 
-  data(){
-    return { 
-      friends: [
-        {
-          firstName: 'Mapule',
-          lastName: 'Mbuzwana',
-          age: 89
 
-        },
-        {
-          firstName: 'Mbalentle',
-          lastName: 'Diko',
-          age: 19
-
-        },
-        {
-          firstName: 'Mbalentle',
-          lastName: 'Diko',
-          age: 19
-
-        },
-        {
-          firstName: 'Mbalentle',
-          lastName: 'Diko',
-          age: 19
-
-        },
-        {
-          firstName: 'Mbalentle',
-          lastName: 'Diko',
-          age: 19
-
-        }
-      ]
-    }
-  }
 }
 
 </script>
